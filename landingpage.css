@@ -1,0 +1,18 @@
+.navbar{background-color: rgba(0, 0, 0, 0.474);height: 800px;}
+.bg{background-image:  url("car.jpeg");background-repeat: no-repeat;background-attachment: fixed;background-size: cover;height: 800px}
+.nav{justify-content: space-around;display: flex;background-color: black;height:100px}
+.nava p{color: azure;font-size: 45px;font-family: 'Tilt Prism', cursive;margin-top: 18px;}
+.navb{margin-top: 18px;}
+.navb li{display: inline;padding: 5px;}
+.navb li a:before{color: azure;position: absolute;content: '';top: 0;left: 0;width: 0%;height: 90%;border-bottom: 2px solid red;transition: 0.4s linear;}
+.navb li a:hover:before{width:100%;}
+.navb li a{text-decoration: none;position: relative;color: rgb(226, 219, 219);padding: 5px;font-family: 'Righteous', cursive;}
+.login p{font-size: 20px;background-color: rgba(221, 25, 25, 0.726);color:rgb(16, 164, 162);border-radius: 5px;padding: 5px;font-family:'Times New Roman', Times, serif;}
+.login p:hover{color: blue;transition: 0.2s;background-color: rgba(248, 248, 248, 0);border: 1px;border-style: groove;border-color: brown;}
+.login{margin-top: 12px;}
+.sec{margin-top:220px; }
+.sec h2{color: rgb(255, 148, 9);font-size: 50px;}
+.sec p{color: aquamarine;font-size: 40px;font-family: 'Orbitron', sans-serif;}
+.sec center ul li a{text-decoration: none;background-color: rgb(240, 74, 74);color: rgb(255, 255, 255);padding: 5px;}
+.sec center ul li {display: inline;padding: 5px;list-style: none;}
+.sec center ul li a:hover{background-color:rgba(243, 243, 243, 0.649) ;color: rgb(95, 0, 0);}
